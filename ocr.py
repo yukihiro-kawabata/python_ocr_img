@@ -13,7 +13,7 @@ def save_file_at_new_dir(new_dir_path, new_filename, new_file_content, mode='w')
 
 RESULT_DIR_PATH = './storage/after/'
 
-files = glob('storage/before/*.png')
+files = glob('storage/before/*.*')
 files_count = len(files)
 
 for i, img in enumerate(files):
